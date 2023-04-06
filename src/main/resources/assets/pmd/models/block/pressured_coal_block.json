@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pmd:block/pressured_coal_block"
+  }
+}

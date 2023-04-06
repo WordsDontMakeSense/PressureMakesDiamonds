@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "pmd:block/pressure_table_front_on",
+    "side": "pmd:block/pressure_table_side",
+    "top": "pmd:block/pressure_table_top"
+  }
+}

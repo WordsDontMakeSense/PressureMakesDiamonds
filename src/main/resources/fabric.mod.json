@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "pmd",
+  "version": "${version}",
+  "name": "PressureMakesDiamonds",
+  "description": "",
+  "authors": [
+    "WordsDontMakeSense"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/pmd/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.nowordsmakesense.pressuremakesdiamonds.PressureMakesDiamondsClient"
+    ],
+    "main": [
+      "com.nowordsmakesense.pressuremakesdiamonds.PressureMakesDiamonds"
+    ]
+  },
+  "mixins": [
+    "PressureMakesDiamonds.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model":  "pmd:block/pressured_coal_block" }
+  }
+}
