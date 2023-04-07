@@ -18,7 +18,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block PRESSURED_COAL_BLOCK = registerBlock("pressured_coal_block", new Block(FabricBlockSettings.of(Material.STONE).strength(5.0f, 6.0f).requiresTool()), ModItemGroup.PMD);
     public static final Block COAL_SLAB = registerSlabBlock("coal_slab", new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(5.0f, 6.0f).requiresTool()), ModItemGroup.PMD);
-    public static final Block PRESSURE_TABLE = registerBlock("pressure_table", new CraftingTableBlock(FabricBlockSettings.of(Material.STONE).strength(3.5f, 3.5f).requiresTool()), ModItemGroup.PMD);
+    public static final Block PRESSURE_TABLE = registerBlock("pressure_table", new PressureTableBlock(FabricBlockSettings.of(Material.STONE).strength(3.5f, 3.5f).requiresTool()), ModItemGroup.PMD);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
