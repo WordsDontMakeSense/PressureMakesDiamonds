@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "pmd:pressured_coal_block",
-    "pmd:coal_slab"
+    "pmd:coal_slab",
+    "pmd:pressure_table"
   ]
 }
