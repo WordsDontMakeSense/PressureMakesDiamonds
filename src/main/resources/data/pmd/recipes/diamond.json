@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "pmd:pressured_coal_block"
+  },
+  "result": "minecraft:diamond",
+  "experience": 7,
+  "cookingtime": 200
+}

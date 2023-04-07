@@ -12,6 +12,6 @@ public class ModItemGroup {
 
     public static void registerItemGroup()
     {
-        PMD = FabricItemGroup.builder(new Identifier(PressureMakesDiamonds.MOD_ID, "pmd")).displayName(Text.literal("Pressure Makes Diamonds")).icon(() -> new ItemStack(ModBlocks.PRESSURE_TABLE)).build();
+        PMD = FabricItemGroup.builder(new Identifier(PressureMakesDiamonds.MOD_ID, "pmd")).displayName(Text.literal("Pressure Makes Diamonds")).icon(() -> new ItemStack(ModBlocks.PRESSURED_COAL_BLOCK)).build();
     }
 }
